@@ -1,5 +1,5 @@
 export function Semaphore(max: number): any {
-  let counter: number = 0;
+  let counter = 0;
   let waiting = [];
 
   const take = () => {
